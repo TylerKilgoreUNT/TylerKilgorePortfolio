@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  	background-color: #9CAF88; 
+  	font-family: 'Raleway', sans-serif;
+ 	margin: 0;
+  	padding: 0;
+}
+
+#banner {
+	background-image: url("datcustadium.JPEG");
+	background-size: cover;
+  	background-position: center;
+  	height: 200px;
+  	width: 100%;
+}
+
+#banner .content h1 {
+  border: 3px solid #DFE6DA;
+  border-collapse: collapse;
+  border-radius: 10px;
+  position: relative;
+  top: 50px;
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  text-wrap: balance;
+  color:#DFE6DA;
+  font-size: 42px;
+  font-weight: 600;
+}
+
+#banner .content p {
+	padding-top: 60px;
+	text-align: center;
+	margin: auto;
+	color: #DFE6DA;
+	font-size: large;
+	font-weight: 750;
+}
+
+#about {
+	background: linear-gradient(#85763A,#5d7341);
+	color: #DFE6DA;
+	position: auto;
+	width: 100%;
+	height: 150px;
+	padding: 0;
+	margin: 0;
+}
+
+#about hr {
+	border: none;
+	width: 120px;
+	height: 5px;
+	background-color:#DFE6DA;
+	border-radius: 10px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+#about .content p {
+	position: relative;
+	font-weight: 500;
+	text-align: justify;
+	font-size: 17px;
+	padding-left: 200px;
+	padding-right: 200px;
+	color: #DFE6DA;
+	margin: 0 auto;
+}
+
+#about .content h2 {
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#gallery {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	width: 100%; 
+	background: linear-gradient(#5d7341,#3a6c50);
+}
+
+#gallery hr {
+	border: none;
+	width: 300px;
+	height: 5px;
+	background-color: #DFE6DA;
+	border-radius: 10px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+#gallery h2 {
+	color: #DFE6DA;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+table, th, tr {
+	border: 2px solid #282d23;
+	border-collapse: collapse;
+    margin-left: auto;
+	margin-right: auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+#gallery .table-head {
+	background-color: #3a6c50;
+    color: #ffffff;
+}
+
+th, td {
+    padding: 12px 15px;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #DFE6DA;
+	color:#4d906a;
+}
+
+tbody tr.active-row {
+    font-weight: bold;
+    color: #DFE6DA;
+	background-color: #4d906a;
+}
+
+#images {
+	background: linear-gradient(#3a6c50,#21625c)
+}
+
+#images h2 {
+	color: #DFE6DA;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+#images hr {
+	border: none;
+	width: 120px;
+	height: 5px;
+	background-color: #DFE6DA;
+	border-radius: 10px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+#images img {
+	border-radius: 8px;
+	padding: 5px;
+  	border: 2px solid #DFE6DA;
+	display: flex;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+#images .row {
+  display: flex;
+}
+
+#images .column {
+  flex: 50%;
+}
+
+#images .bubble {
+  text-align: center;
+  padding: 10px 20px;
+  color:#DFE6DA;
+  font-size: large;
+  font-weight: bold;
+}
+
+#contact-container {
+	box-sizing: border-box;
+	background: linear-gradient(#21625c,#21555f);
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#contact-container .contact-left{
+	display: center;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+#contact-container .contact-title h2 {
+	text-align: center;
+	color:#DFE6DA;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 5px;
+}
+
+#contact-container .contact-title hr {
+	border: none;
+	width: 120px;
+	height: 5px;
+	background-color: #DFE6DA;
+	border-radius: 10px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+#contact-container .labels {
+	color:#DFE6DA;
+	font-weight: 1000;
+}
+
+#contact-container .contact-inputs {
+	width: 400px;
+	height: 50px;
+	border: none;
+	outline: none;
+	font-weight: 500;
+	color: #758467;
+	border-radius: 50px;
+	padding-left: 15px;
+}
+
+#contact-container .contact-left textarea {
+	height: 140px;
+	padding-top: 15px;
+	border-radius: 20px;
+}
+
+#contact-container .contact-inputs:focus {
+	border: 3px solid #758467;
+}
+
+#contact-container .contact-left button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px 30px;
+	font-size: 16px;
+	color:#DFE6DA;
+	gap: 10px;
+	border: none;
+	border-radius: 50px;
+	background: linear-gradient(270deg,#21625c,#2f4858);
+	cursor: pointer;
+}
+
+#contact-container .contact-left button img {
+	height: 15px;
+}
+
+#foot {
+	background: linear-gradient(#21555f,#2f4858);
+	font-weight: 400;
+	font-size: medium;
+	text-align: right;
+	color: #DFE6DA;
+}
